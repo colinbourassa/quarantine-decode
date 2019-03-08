@@ -68,7 +68,7 @@ int main (int argc, char** argv)
 
   if (read_palette(argv[1], palette_data))
   {
-    status = decode_spr(argv[2], (palette_entry*)palette_data) ? -2 : 0;
+    status = decode_spr(argv[2], (palette_entry*)palette_data) ? 0 : -2;
   }
   else
   {
