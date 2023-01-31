@@ -1,6 +1,6 @@
 /**
  * Extracts sprites from the .SPR files packaged with
- * the 1994 game 'Quarantine' (Gametek / Imagexcel).
+ * the 1994 game 'Quarantine' (GameTek / Imagexcel).
  * Depends on the companion .IMG file that contains
  * color palette information.
  */
